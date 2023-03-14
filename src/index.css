@@ -1,0 +1,45 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
+  color: #444;
+  background: rgb(92, 31, 31);
+  display: block;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  min-height: 100vh !important;
+  max-width: 100vw;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    overflow: auto;
+    height: 100%;
+  }
+}
+
+/* 
+"@fortawesome/fontawesome-svg-core": "^6.2.1",
+"@fortawesome/free-regular-svg-icons": "^6.2.1",
+"@fortawesome/free-solid-svg-icons": "^6.2.1",
+"@fortawesome/react-fontawesome": "^0.2.0",
+    "sass": "^1.57.1"
+
+*/
+
+/* "@emailjs/browser": "^3.10.0",
+    "@fortawesome/free-brands-svg-icons": "^6.2.1",
+    "animate.css": "^4.1.1",
+    "gsap-trial": "^3.11.4",
+    "loaders.css": "^0.1.2",
+    "react-leaflet": "^4.2.0",
+    "react-loaders": "^3.0.1", */
+
+    /* <div style={{color:"blue", fontSize:"30px"}}>
+    sup bitch, hello world ko lamidee koyemi mo oooo
+ </div> */
