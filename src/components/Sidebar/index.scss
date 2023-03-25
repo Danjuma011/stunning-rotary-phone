@@ -141,7 +141,7 @@ li a {
 
 
         nav {
-            // display: block;
+            
             width: 100%;
             height: 100%;
             background: #181818;
@@ -150,6 +150,7 @@ li a {
             position: fixed;
             z-index: 2;
             margin: 0;
+            
 
 
 
@@ -158,6 +159,9 @@ li a {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                margin-top: 60px;
+                
+
             }
 
             a:after {
@@ -169,6 +173,9 @@ li a {
 
             a svg {
                 opacity: 1 !important;
+                // justify-content: center;
+                // margin-top: 100px;
+                // align-items: center;
             }
 
 

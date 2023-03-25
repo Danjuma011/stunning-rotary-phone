@@ -9,9 +9,9 @@
     }
 
     h1 {
-        color: red;
+        color: #fff;
         font-size: 53px;
-        margin: 0;
+        // margin: 0;
         font-family: 'colvectica';
         font-weight: 400;
 
@@ -85,6 +85,7 @@
     .home-page h1::after {
         display: none;
     }
+    
 
     .home-page {
         .text-zone {
@@ -113,6 +114,7 @@
             right: 0;
             box-sizing: border-box;
             margin: auto;
+            
             left: 0;
 
             svg {
@@ -124,6 +126,7 @@
                 margin: auto;
 
             }
+
         }
     }
 }
