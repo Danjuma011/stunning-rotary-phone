@@ -8,7 +8,7 @@ import "animate.css"
 const About = () => {
   
     const [letterClass, setLetterClass] = useState('text-animate')
-     const [letterClass1, setLetterClass2] = useState('text-animate')
+    
        
      useEffect (() => {
         const timeoutFunc = setTimeout(() => {
