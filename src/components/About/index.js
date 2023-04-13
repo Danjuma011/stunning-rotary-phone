@@ -3,20 +3,12 @@ import AnimatedLetters from '../Animatedletters'
 import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBootstrap, faCss3,  faHtml5, faJsSquare, faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons'
-import { faG } from '@fortawesome/free-solid-svg-icons'
 import "animate.css"
 
 const About = () => {
   
     const [letterClass, setLetterClass] = useState('text-animate')
-   
-    // useEffect (() => {
-    //     return setTimeout(() => {
-    //         setLetterClass('text-animate-hover')
-    //     }, 3000)
-    //  },[])
-
-
+    
        
      useEffect (() => {
         const timeoutFunc = setTimeout(() => {
