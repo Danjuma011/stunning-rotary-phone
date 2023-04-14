@@ -76,6 +76,21 @@
 
     }
 
+    .solid-logo {
+        width: 400px;
+        height: 600px;
+        position: absolute;
+        top: 0;
+        right: 5%;
+        bottom: 0;
+        left: auto;
+        margin: auto;
+        opacity: 0;
+        animation: fadeIn 3s 3s;
+        animation-fill-mode: forwards;
+
+    }
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -85,7 +100,7 @@
     .home-page h1::after {
         display: none;
     }
-    
+
 
     .home-page {
         .text-zone {
@@ -103,31 +118,28 @@
             display: block;
             margin: 20px auto 0 auto;
             width: 185px;
-            
+
         }
 
 
-        .logo-container {
+        .solid-logo {
             position: relative;
             width: 120px;
             height: auto;
-            // top: 50px;
             right: 0;
             box-sizing: border-box;
             margin: auto;
-            
             left: 0;
+            opacity: 0;
+            animation: fadeIn 3s 3s;
+            animation-fill-mode: forwards;
 
-            svg {
-                position: absolute;
-                top: auto;
-                right: auto;
-                bottom: auto;
-                left: 0;
-                margin: auto;
-
-            }
 
         }
+
+
+
+
+
     }
 }

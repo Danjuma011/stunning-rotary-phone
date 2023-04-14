@@ -12,7 +12,7 @@ const Sidebar = () => {
 
 
    const handleToggleNav = () => {
-      console.log("hi don j clicked me, because he is ")
+      
       setShowNav(prev => !prev)
    }
 
