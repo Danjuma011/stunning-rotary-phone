@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import {Link} from 'react-router-dom';
 import AnimatedLetters from '../Animatedletters';
 import './index.scss';
-import Logo from '../Logo'
+import Logo5 from '../../assets/Logo/logo-5.png'
 
 
 
@@ -44,7 +44,10 @@ const Home = () => {
                 
             </div>  
 
-            <Logo/>
+            {/* <Logo/> */}
+                <img className='solid-logo' src={Logo5} alt="S" />
+
+
         </div>    
 
 

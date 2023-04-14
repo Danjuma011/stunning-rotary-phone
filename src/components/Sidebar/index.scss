@@ -126,6 +126,7 @@ li a {
 
 
 @media screen and (max-width: 1200px) {
+   
     .nav-bar {
         background: transparent;
         position: initial;
@@ -138,7 +139,7 @@ li a {
         nav {
             display: none;
         }
-
+  
 
         nav {
             
@@ -150,9 +151,6 @@ li a {
             position: fixed;
             z-index: 2;
             margin: 0;
-            
-
-
 
 
             a {
@@ -173,18 +171,12 @@ li a {
 
             a svg {
                 opacity: 1 !important;
-                // justify-content: center;
-                // margin-top: 100px;
-                // align-items: center;
             }
 
 
             &.mobile-show {
                 display: block;
             }
-
-
-
 
         }
 
@@ -197,28 +189,6 @@ li a {
             top: 15px;
             right: 15px;
         }
-
-
-        // .hamburger-icon{
-        //  display: block ;
-        //  position: absolute;
-        //  top: 15px;
-        //  right: 55px;
-
-
-
-        // }
-
-        // .close-icon{
-        //  display: block ;
-        //  position: absolute;
-        //  top: 15px;
-        //  right: 15px;
-        // }
-
-
-
-
 
     }
 
