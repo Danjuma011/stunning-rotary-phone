@@ -96,6 +96,7 @@
         height: 0%;
         height: 270px;
         overflow: visible;
+        z-index: 0;
     }
 }
 
@@ -103,5 +104,6 @@
 @media only screen and (min-width:600px) and (max-width:1024px) {
     .stage-cube-cont {
         padding-bottom: 60px;
+        z-index: 0;
     }
 }
