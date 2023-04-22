@@ -32,13 +32,12 @@ const About = () => {
                     
                 </h1>
                 <p>
-                    I'm a very ambitious front-end developer looking for a role index
-                    an established IT company with the opportunity to work with the latest
-                    technologies on challenging and diverse projects.
+                    I am a very ambitious front-end developer looking for a role in
+                    an established IT company with the opportunity to productive and gather experience.
                 </p>
                 <p>
-                    I'm quite confident, naturally curious, and perpetually working on
-                    improving my chops one design problem at a time
+                    I'm quite confident, naturally curious, and working on
+                    improving my skills.
                 </p>
                 <p>
                     If i need to define myself in one sentence that would be a family
